@@ -3,78 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultura Tejutleca</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #4A90E2;
-            color: white;
-            padding: 15px 0;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        nav {
-            margin: 20px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #4A90E2;
-        }
-        section {
-            padding: 20px;
-            background: white;
-            max-width: 800px;
-            margin: 20px auto;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #4A90E2;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Factura Electrónica</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <button class="btn-info">Información del DTE</button>
+        <img src="sat_logo.png" alt="SAT" class="logo">
+        <img src="fel_logo.png" alt="FEL" class="logo">
+        <h2>Régimen de Factura Electrónica en Línea</h2>
+        <h3>Verificación de Documento Tributario Electrónico</h3>
+        
+        <div class="factura">
+            <h4>Factura (FACT)</h4>
+            <h5>EMISIÓN</h5>
+            <p><strong>Fecha de emisión:</strong> 13/02/2025 12:01:44</p>
+            <p><strong>Emisor:</strong> -</p>
+            <p><strong>Establecimiento:</strong> -</p>
+            <p><strong>Receptor:</strong> -</p>
+            <p><strong>Monto total:</strong> 750.00 Q. GTQ</p>
+            <p><strong>No. de acceso:</strong> -</p>
+        </div>
 
-<header>
-    <h1>Un poco de Cultura Tejutleca.</h1>
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#libros">Arte</a>
+        <div class="certificacion">
+            <h4>CERTIFICACIÓN</h4>
+            <p><strong>Autorización:</strong> 751816B2-0EFF-4F80-82E2-11E0A3C0B462</p>
+            <p><strong>Serie:</strong> 751816B2</p>
+            <p><strong>Número de DTE:</strong> 251613056</p>
+        </div>
 
-    </nav>
-</header>
+        <div class="aceptacion">
+            <h4>ACEPTACIÓN SAT</h4>
+            <p><strong>Acuse de recibo:</strong></p>
+            <p>Identificación de FC202520250214T12:02:3006:00751816B20EFF4F8082E211E0A3C0B462</p>
+        </div>
 
-<section id="inicio">
-    <h2>Bienvenid@ a la Cultura Tejutleca</h2>
-    <p>Somos la casa de Cultura Tejutlcea, que inicia en el años de **** aventurate en nuestra página para conocer <br> un poco más sobre nuestra historia <a href="https://lovecoderd.github.io/P-gina2Tejutla/" style="color: #4A90E2; text-decoration: underline;">Nuestra Historia</a>.</p>
-</section>
-
-<section id="libors">
-    <h2>Trabajos Ganadores</h2>
-    <p>A partir del 2026 podrá visualizar los trabajos ganadores en el certamen literario Marco Aurelio Paz de León a travez del siguiente enlace </p>
-</section>
-
-</Section>
-<footer>  
-    <p>&copy; 2024 Departamento de Letras Casa de Cultura Tejutleca.</p>
-</footer>
-
+        <p class="nota">
+            NOTA: Si la información no coincide con el documento que tiene en su poder, denúncielo aquí: 
+            <a href="https://portal.sat.gob.gt/portal/denuncias/">SAT Denuncias</a>
+        </p>
+    </div>
 </body>
 </html>
-
-
